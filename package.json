@@ -1,0 +1,34 @@
+{
+  "name": "react-strapi-002",
+  "version": "1.0.0",
+  "description": "1. fork\r 2. create branch from main branch\r 3. mono-repo: reactjs(vite) + strapicms\r 4. github actions: CI/CD -> pull requests to the main branch\r 5. news",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farah-Bee/react-strapi-002.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Farah-Bee/react-strapi-002/issues"
+  },
+  "homepage": "https://github.com/Farah-Bee/react-strapi-002#readme",
+  "dependencies": {
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "axios": "^1.7.9",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.6"
+  }
+}

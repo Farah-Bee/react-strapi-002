@@ -1,0 +1,95 @@
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex; /* Flexbox for horizontal alignment */
+  justify-content: space-between; /* Distribute sections evenly */
+  align-items: flex-start; /* Align items at the top */
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-x: auto; /* Enable horizontal scrolling if necessary */
+  padding: 0 20px; /* Add some padding for spacing */
+  flex-wrap: nowrap; /* Prevent wrapping to the next line */
+}
+
+.footer-section {
+  flex: 0 0 auto; /* Disable shrinking/growing, set width as fixed */
+  min-width: 150px; /* Set a minimum width for responsiveness */
+  margin: 0 10px; /* Add spacing between sections */
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  color: #f8b400;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-section ul li a:hover {
+  color: #f8b400;
+}
+
+.social-links {
+  display: flex; /* Make social links inline */
+  gap: 15px; /* Add spacing between social media links */
+}
+
+.social-links li {
+  margin: 0; /* Remove default margin */
+}
+
+.social-links li a {
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #555;
+  font-size: 14px;
+}
+
+/* Icon Styles */
+.footer-section svg {
+  color: #f8b400;
+  font-size: 18px;
+}
+
+/* Ensure horizontal scrolling on small screens */
+@media (max-width: 768px) {
+  .footer-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+
+  .footer-section {
+    flex: 0 0 auto; /* Keep sections fixed width */
+    margin: 0 10px; /* Maintain spacing between sections */
+  }
+}
